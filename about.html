@@ -7,6 +7,12 @@
     <title>open-source/about</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+ <!--og's goes here-->
+ <meta property="og:title" content="internet safety via FOSS">
+ <meta property="og:description" content="This website is about FOSS.">
+ <meta property="og:image" content="image/foss_logos-1024x690.jpg">
+ <link rel="icon" href="image/favicon.ico">
+
     <!-- bootstrap links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- bootstrap links -->
@@ -26,7 +32,7 @@
                 <i class="fa-brands fa-github"></i>
             </div>
             <div class="other-links">
-                <button id="btn-login"><a href="login.html">Login</a></button>
+                <button id="btn-login"><a href="login-page/index.html">Login</a></button>
                 <button id="btn-signup"><a href="signup.html">Sign up</a></button>
                 <i class="fa-solid fa-user"></i>
             </div>
@@ -86,28 +92,27 @@
     <div class="row" style="margin-top: 50px;">
         <div class="col-md-6 py-3 py-md-0">
             <div class="card">
-                <img src="./image/about.png" alt="">
+                <img src="./image/foss_logos-1024x690.jpg" alt="foss logo">
             </div>
         </div>
         <div class="col-md-6 py-3 py-md-0">
             <p style="background-color: whitesmoke;">
-              <p>Welcome to our open-source security information site!</p>
+              <p style="align-items: center;">Welcome to our open-source security information site!</p>
 
-              <p>At our platform, we are passionate about providing valuable and reliable information to help individuals and organizations navigate the ever-evolving landscape of cybersecurity. Our mission is to empower users with the knowledge and resources they need to protect their digital assets and maintain a secure online presence.<br></p>
+              <p>At our platform, we are passionate about providing valuable and reliable information to help individuals and organizations navigate the ever-evolving landscape of cybersecurity. Our mission is to empower users with the knowledge and resources they need to protect their digital assets and maintain a secure online presence.</p>
               
               <p>We firmly believe in the power of open-source collaboration. By fostering a community-driven approach, we bring together security experts, enthusiasts, and users from all backgrounds to share their insights, research, and best practices. This collective effort ensures that our platform offers comprehensive and up-to-date information that reflects the latest trends, threats, and solutions in the field of cybersecurity.</p>
               
              <p> What sets us apart is our commitment to transparency and accessibility. Our content is freely available to everyone, ensuring that anyone can access vital security information without barriers. We strive to demystify complex concepts, providing clear and concise explanations that cater to both beginners and seasoned professionals. </p>
               
               <p>Our platform covers a wide range of topics, including but not limited to:</p>
-              <table>
-              <li>Threat Intelligence: We deliver timely updates on emerging threats, malware, vulnerabilities, and cyber-attacks, enabling users to stay one step ahead of potential risks.</li>
+              Threat Intelligence: We deliver timely updates on emerging threats, malware, vulnerabilities, and cyber-attacks, enabling users to stay one step ahead of potential risks.
               
-              <li>Best Practices: We offer practical advice, guidelines, and actionable steps to enhance security measures across various domains, such as network security, data protection, secure coding, and more.
+              <li>Best Practices: We offer practical advice, guidelines, and actionable steps to enhance security measures across various domains, such as network security, data protection, secure coding, and more.</li>
               
-              Security Tools and Resources: We curate a comprehensive collection of open-source security tools, frameworks, and resources to assist users in safeguarding their systems and networks effectively.
+              <li>Security Tools and Resources: We curate a comprehensive collection of open-source security tools, frameworks, and resources to assist users in safeguarding their systems and networks effectively.</li>
               
-              Community Engagement: We foster a vibrant community where users can interact, share their experiences, seek guidance, and collaborate on security-related projects. Together, we strive to create a safer digital ecosystem.
+                <li>Community Engagement: We foster a vibrant community where users can interact, share their experiences, seek guidance, and collaborate on security-related projects. Together, we strive to create a safer digital ecosystem.</li>
               
               We are dedicated to continually improving our platform by incorporating user feedback, engaging with the cybersecurity community, and embracing advancements in technology. Our ultimate goal is to empower individuals and organizations with the knowledge and tools necessary to make informed decisions and protect their digital lives.
               
@@ -121,63 +126,65 @@
 
 <!-- footer -->
 <footer id="footer" style="margin-top: 50px;">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 footer-content">
-                    <h3>open source community</h3>
-                    <p>let's make a chage! be the part of open source community</p>
-                    <p>
-                        be aware of google,meta <br>
-                        they are taking away your data <br>
-                        let's stop them together<br>
-                    </p>
-                    <strong><i class="fa-solid fa-envelope"></i> Email: <strong>nonmityslayer@tutanota.com</strong></strong>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Usefull Links</h4>
-                    <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Privacy policay</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Team</h4>
-                    <p>You can also be part of our team just ping me!</p>
-                    <ul>
-                        <li><a href="#">abc</a></li>
-                        <li><a href="#">def</a></li>
-                        <li><a href="#">ghi</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Social Network</h4>
-                    <p>feel free to contact us through following channels! we would be glad to here you! we are always open to suggestions! (here is our hipocracy (we are forced to use these data miners)</p>
-                    <div class="socail-links mt-3">
-                        <a href="#" class="twiiter"><i class="fa-brands fa-mastodon"></i></a>
-                        <a href="#" class="twiiter"><i class="fa-brands fa-telegram-plane"></i></a>
-                        <a href="#" class="twiiter"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" class="twiiter"><i class="fa-brands fa-slack"></i></a>
-                        <a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="container py-4">
-        <div class="copyright">
-            &copy; Copyright <strong>code_rider_team</strong>.All Rights Reserved
-        </div>
-        <div class="credits">
-            Designed By <a href="#">code_riders</a>
-        </div>
-    </div>
-    </footer>
-    <!-- footer -->
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 footer-content">
+                  <h3>open source community</h3>
+                  <p>let's make a chage! be the part of open source community</p>
+                  <p>
+                      be aware of google,meta <br>
+                      they are taking away your data <br>
+                      let's stop them together<br>
+                  </p>
+                  <strong><i class="fa-solid fa-envelope"></i> Email: <strong>nonmityslayer@tutanota.com</strong></strong>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Usefull Links</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy policay</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Team</h4>
+                  <p>You can also be part of our team just ping me!</p>
+                  <ul>
+                      <li><a href="">safikul Alam</a></li>
+                      <li><a href="#">Sagar kumar</a></li>
+                      <li><a href="#">Md. Faiz Anasari</a></li>
+                      <li><a href="">Aman Anand Tiwari</a></li>
+                      <li><a href="#">Sobhit Singhal</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Social Network</h4>
+                  <p>feel free to contact us through following channels! we would be glad to here you! we are always open to suggestions! (here is our hipocracy (we are forced to use these data miners)</p>
+                  <div class="socail-links mt-3">
+                      <a href="#" class="twiiter"><i class="fa-brands fa-mastodon"></i></a>
+                      <a href="#" class="twiiter"><i class="fa-brands fa-telegram-plane"></i></a>
+                      <a href="#" class="twiiter"><i class="fa-brands fa-github"></i></a>
+                      <a href="#" class="twiiter"><i class="fa-brands fa-slack"></i></a>
+                      <a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy; Copyright <strong>code_rider_team</strong>.All Rights Reserved
+      </div>
+      <div class="credits">
+          Designed By <a href="#">code_riders</a>
+      </div>
+  </div>
+  </footer>
+  <!-- footer -->
 
 <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
 
